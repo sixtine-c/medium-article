@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lora:ital,wght@0,400;1,600&family=Montserrat:wght@700&display=swap');
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color: #494949
+}
+
+
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Monteserrat', sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Lora', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+}
+@media (min-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .center-body {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .center-body {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .center-body {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.center-body {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: justify;
+  margin-bottom: 20px;
+  margin: 0 auto;
+
+}
+h3 {
+  color: #A0A0A0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+}
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgb(76, 229, 130), rgba(76, 229, 130, 1));
+
+}
